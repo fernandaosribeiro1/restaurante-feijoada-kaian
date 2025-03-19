@@ -1,0 +1,44 @@
+/* Estilização do título antes do carrossel */
+.carrossel-intro {
+    text-align: center;
+    margin: 50px auto 20px;
+  }
+  
+  .carrossel-intro h1 {
+    font-size: 2rem;
+    color: #ff5722;
+    font-weight: bold;
+  }
+  
+  .carrossel-intro p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Estilização do carrossel */
+  .swiper {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  /* Ajuste das imagens dentro do carrossel */
+  .swiper-slide img {
+    width: 100%;
+    height: 400px; /* Mantém todas as imagens do mesmo tamanho */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    display: block;
+    border-radius: 10px;
+  }
+  
+  /* Ajuste para os botões de navegação */
+  .swiper-button-next, .swiper-button-prev {
+    color: #ff5722;
+  }
+  
+  .swiper-pagination-bullet {
+    background: #ff5722;
+  }
+  

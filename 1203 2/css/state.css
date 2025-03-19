@@ -1,0 +1,25 @@
+/* state.css */
+
+.swiper-slide {
+
+    transition: transform 0.3s ease-in-out;
+
+  }
+
+ 
+
+  .swiper-slide:hover {
+
+    transform: scale(1.05);
+
+  }
+
+
+theme.css
+/* theme.css */
+
+body {
+
+    background-color: #f4f4f4;
+
+  }

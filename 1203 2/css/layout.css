@@ -1,0 +1,267 @@
+header {
+
+    background-color: #8B4513; /* Marrom, remetendo ao feijão */
+
+    color: #FFFFFF; /* Branco para o texto */
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+ 
+
+.logo {
+
+    font-size: 2em;
+
+    font-weight: bold;
+
+    color: #FFD700; /* Dourado, remetendo ao arroz */
+
+}
+
+ 
+
+nav ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+ 
+
+nav ul li {
+
+    display: inline;
+
+    margin: 0 15px;
+
+}
+
+ 
+
+nav ul li a {
+
+    color: #FFFFFF; /* Branco para os links */
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+ 
+
+nav ul li a:hover {
+
+    color: #FFA500; /* Laranja, para um efeito de destaque */
+
+}
+
+ 
+
+/* Estilo da seção hero */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+}
+
+/* Estilo da imagem */
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* A imagem vai cobrir toda a área sem distorção */
+    z-index: -1;  /* Coloca a imagem atrás do conteúdo */
+}
+
+/* Estilo do conteúdo dentro da hero */
+.hero-content {
+    position: relative;
+    z-index: 1;  /* Garante que o texto ficará sobre a imagem */
+    padding: 20px;
+    background-color: rgba(146, 132, 132, 0.5);  /* Fundo semitransparente para garantir visibilidade do texto */
+    border-radius: 10px;  /* Bordas arredondadas no fundo do texto */
+}
+
+.hero h1 {
+    color:#8B4513;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+  .carousel {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    margin: 20px auto;
+
+  }
+
+ 
+
+ 
+
+  .cards {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 20px;
+
+}
+
+ 
+
+.cards {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 20px;
+
+}
+
+ 
+
+.card {
+
+    background-color: #FFD700; /* Dourado para destacar os cards */
+
+    color: #2E8B57; /* Verde-seco para o texto */
+
+    padding: 20px;
+
+    border-radius: 10px; /* Bordas arredondadas para um toque moderno */
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+
+    text-align: center;
+
+    width: 350px; /* Aumentando a largura dos cards */
+
+    transition: transform 0.3s, box-shadow 0.3s; /* Adicionando animações */
+
+}
+
+ 
+
+.card:hover {
+
+    transform: scale(1.05); /* Aumenta o card ao passar o mouse */
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta a sombra ao passar o mouse */
+
+}
+
+ 
+
+.card h3 {
+
+    font-size: 2.5em;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.card p {
+
+    font-size: 1.2em;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.card p strong {
+
+    font-size: 1.5em;
+
+    color: #8B4513; /* Marrom para destacar o preço */
+
+}
+
+ 
+
+#footer {
+
+    background-color: #8B4513;
+
+    color: #FFFFFF; /* Branco para o texto */
+
+    padding: 20px;
+
+    text-align: center;
+
+    border-top: 5px solid #FFD700; /* Dourado para destacar o rodapé */
+
+}
+
+ 
+
+#footer p {
+
+    margin: 10px 0;
+
+}
+
+ 
+
+.social-links {
+
+    list-style-type: none;
+
+    padding: 0;
+
+    margin: 10px 0;
+
+}
+
+ 
+
+.social-links li {
+
+    display: inline;
+
+    margin: 0 10px;
+
+}
+
+ 
+
+.social-links li a {
+
+    color: #FFD700; /* Dourado para os links */
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+ 
+
+.social-links li a:hover {
+
+    color: #FFA500; /* Laranja para um efeito de destaque */
+
+}
